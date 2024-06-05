@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Solution | Project AWARE</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="brand">Project AWARE</a>
+        <div class="menu-btn"></div>
+        <div class="navigation">
+            <div class="navigation-items">
+                <a href="#">Home</a>
+                <a href="#">Sobre</a>
+                <a href="#">Explorar</a>
+                <a href="#">Solução</a>
+                <a href="#">Contate Nos</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="home">
+        <div class="content">
+            <h1>Global<br> <span>Solution</span></h1>
+            <p>O tema deste ano é inspirado em uma nova iniciativa do G20
+                Mundial, o Oceans 20 (O20), um Grupo de Engajamento com
+                foco em questões como financiamento para a Economia Azul
+                e gestão sustentável dos oceanos. Uma iniciativa que reúne
+                os países- membros, corporações globais e representantes
+                das comunidades locais.
+                <br>
+                Além deste grande desafio, o Global Solutions vai contar
+                com uma programação especial de talks, trazendo muito
+                mais conhecimento e insights únicos.
+                </p>
+            <a href="#">Ler Mais</a>
+        </div>
+        <div class="media-icons">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </section>
+
+    <script type="text/javascript">
+
+    const menuBtn = document.querySelector(".menu-btn");
+    const navigation = document.querySelector(".navigation");
+    
+    menuBtn.addEventListener("click", () => {
+        menuBtn.classList.toggle("active");
+        navigation.classList.toggle("active");
+    });
+
+    </script>
+
+</body>
+</html>
